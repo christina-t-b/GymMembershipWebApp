@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>GymMembershipWebApp</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Update="App_Data/members.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot/" />
+  </ItemGroup>
+</Project>

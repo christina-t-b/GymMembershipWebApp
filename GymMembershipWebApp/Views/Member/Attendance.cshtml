@@ -1,0 +1,21 @@
+@model List<string>
+@{
+    var member = ViewBag.Member as GymMembershipWebApp.Models.Member;
+    ViewData["Title"] = "Attendance - " + member?.Name;
+}
+
+<h2>Attendance for @member?.Name</h2>
+
+<table class="table">
+    <thead>
+        <tr><th>Date/Action</th></tr>
+    </thead>
+    <tbody>
+    @foreach(var entry in Model)
+    {
+        <tr><td>@entry</td></tr>
+    }
+    </tbody>
+</table>
+
+<a asp-action="Index" class="btn btn-secondary">Back to Members</a>

@@ -1,0 +1,45 @@
+@model GymMembershipWebApp.Models.Member
+
+@{
+    ViewData["Title"] = "Member Profile";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="profile-container">
+    <img src="~/images/avatar.jpg"
+         alt="Member Avatar"
+         class="avatar-img rounded-circle"
+         style="width:120px; height:120px; object-fit:cover;" />
+    <div class="profile-details mt-3">
+        <p><strong>Name:</strong> @Model.Name</p>
+        <p><strong>Membership Type:</strong> @Model.MembershipType</p>
+        <p><strong>Email:</strong> @Model.Email</p>
+        <p><strong>Phone:</strong> @Model.Phone</p>
+        <p><strong>Joined:</strong> @Model.JoinDate.ToShortDateString()</p>
+    </div>
+</div>
+
+<div class="mt-4">
+    <a asp-action="Edit" asp-route-id="@Model.MemberId" class="btn btn-primary">
+        Edit Info
+    </a>
+    <form asp-action="Delete" asp-route-id="@Model.MemberId" method="post" class="d-inline">
+        <button type="submit" class="btn btn-danger">
+            Cancel Membership
+        </button>
+    </form>
+</div>
+
+@section Styles {
+    <style>
+      .profile-container {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+      }
+      .avatar-img {
+        box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      }
+    </style>
+}

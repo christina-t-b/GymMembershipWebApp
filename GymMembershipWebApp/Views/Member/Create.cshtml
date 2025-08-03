@@ -1,0 +1,47 @@
+@model GymMembershipWebApp.Models.Member
+
+@{
+    ViewData["Title"] = "New Member";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Create" method="post" class="mt-4">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" type="email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Phone"></label>
+        <input asp-for="Phone" class="form-control" />
+        <span asp-validation-for="Phone" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="MembershipType"></label>
+        <select asp-for="MembershipType" class="form-control">
+            <option value="">-- Select Plan --</option>
+            <option>Basic</option>
+            <option>Premium</option>
+            <option>VIP</option>
+        </select>
+        <span asp-validation-for="MembershipType" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add New Member</button>
+    <a asp-action="Index" class="btn btn-secondary ml-2">Cancel</a>
+</form>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

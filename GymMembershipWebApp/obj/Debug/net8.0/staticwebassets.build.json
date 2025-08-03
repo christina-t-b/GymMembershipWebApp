@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "Hash": "kpbykTInOQtqEKeNGfAuPgvhlFFqk5SoJXN0p9mbRbw=",
+  "Source": "GymMembershipWebApp",
+  "BasePath": "_content/GymMembershipWebApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "GymMembershipWebApp/wwwroot",
+      "Source": "GymMembershipWebApp",
+      "ContentRoot": "/Users/christinaborbon/Desktop/ISDS 454/GymMembershipWebApp/wwwroot/",
+      "BasePath": "_content/GymMembershipWebApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/christinaborbon/Desktop/ISDS 454/GymMembershipWebApp/wwwroot/css/style.css",
+      "SourceId": "GymMembershipWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/christinaborbon/Desktop/ISDS 454/GymMembershipWebApp/wwwroot/",
+      "BasePath": "_content/GymMembershipWebApp",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mimepkehk6",
+      "Integrity": "fhKBA9qMjGc8MiY+QfZ22DdmkikRDYpW1d8ZuMtvmWY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/style.css"
+    },
+    {
+      "Identity": "/Users/christinaborbon/Desktop/ISDS 454/GymMembershipWebApp/wwwroot/images/avatar.jpg",
+      "SourceId": "GymMembershipWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/christinaborbon/Desktop/ISDS 454/GymMembershipWebApp/wwwroot/",
+      "BasePath": "_content/GymMembershipWebApp",
+      "RelativePath": "images/avatar#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iyud8qzqow",
+      "Integrity": "+j3lCOv0wYRJwC8mHO1gADDxpOHq1viwCMZkM770uUg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/avatar.jpg"
+    },
+    {
+      "Identity": "/Users/christinaborbon/Desktop/ISDS 454/GymMembershipWebApp/wwwroot/images/logo.png",
+      "SourceId": "GymMembershipWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/christinaborbon/Desktop/ISDS 454/GymMembershipWebApp/wwwroot/",
+      "BasePath": "_content/GymMembershipWebApp",
+      "RelativePath": "images/logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "33jdfpupmh",
+      "Integrity": "IcvpUazqPPObyyKMOIt//0gvHWs92H0ple4Qaj1VMYs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/logo.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/style.css",
+      "AssetFile": "/Users/christinaborbon/Desktop/ISDS 454/GymMembershipWebApp/wwwroot/css/style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "636"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fhKBA9qMjGc8MiY+QfZ22DdmkikRDYpW1d8ZuMtvmWY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 07:37:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fhKBA9qMjGc8MiY+QfZ22DdmkikRDYpW1d8ZuMtvmWY="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.mimepkehk6.css",
+      "AssetFile": "/Users/christinaborbon/Desktop/ISDS 454/GymMembershipWebApp/wwwroot/css/style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "636"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fhKBA9qMjGc8MiY+QfZ22DdmkikRDYpW1d8ZuMtvmWY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 07:37:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mimepkehk6"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fhKBA9qMjGc8MiY+QfZ22DdmkikRDYpW1d8ZuMtvmWY="
+        }
+      ]
+    },
+    {
+      "Route": "images/avatar.iyud8qzqow.jpg",
+      "AssetFile": "/Users/christinaborbon/Desktop/ISDS 454/GymMembershipWebApp/wwwroot/images/avatar.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2356414"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+j3lCOv0wYRJwC8mHO1gADDxpOHq1viwCMZkM770uUg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 05:01:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iyud8qzqow"
+        },
+        {
+          "Name": "label",
+          "Value": "images/avatar.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+j3lCOv0wYRJwC8mHO1gADDxpOHq1viwCMZkM770uUg="
+        }
+      ]
+    },
+    {
+      "Route": "images/avatar.jpg",
+      "AssetFile": "/Users/christinaborbon/Desktop/ISDS 454/GymMembershipWebApp/wwwroot/images/avatar.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2356414"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+j3lCOv0wYRJwC8mHO1gADDxpOHq1viwCMZkM770uUg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 05:01:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+j3lCOv0wYRJwC8mHO1gADDxpOHq1viwCMZkM770uUg="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.33jdfpupmh.png",
+      "AssetFile": "/Users/christinaborbon/Desktop/ISDS 454/GymMembershipWebApp/wwwroot/images/logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "199868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IcvpUazqPPObyyKMOIt//0gvHWs92H0ple4Qaj1VMYs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 04:58:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "33jdfpupmh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IcvpUazqPPObyyKMOIt//0gvHWs92H0ple4Qaj1VMYs="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.png",
+      "AssetFile": "/Users/christinaborbon/Desktop/ISDS 454/GymMembershipWebApp/wwwroot/images/logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "199868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IcvpUazqPPObyyKMOIt//0gvHWs92H0ple4Qaj1VMYs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 04:58:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IcvpUazqPPObyyKMOIt//0gvHWs92H0ple4Qaj1VMYs="
+        }
+      ]
+    }
+  ]
+}

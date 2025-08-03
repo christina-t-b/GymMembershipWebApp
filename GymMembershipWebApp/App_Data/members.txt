@@ -1,0 +1,10 @@
+1|Emily Carter|emily.carter@email.com|310-555-1234|Premium|True|2020-01-01T00:00:00.0000000
+2|Liam Thompson|liam.thompson@email.com|714-555-2345|Standard|True|2023-06-14T17:00:00.0000000-07:00
+3|Sophia Nguyen|sophia.nguyen@email.com|949-555-3456|Basic|False|2020-01-01T00:00:00.0000000
+4|Noah Smith|noah.smith@email.com|626-555-4567|Premium|True|2023-06-14T17:00:00.0000000-07:00
+5|Ava Patel|ava.patel@email.com|408-555-5678|Standard|True|2023-06-14T17:00:00.0000000-07:00
+6|Ethan Kim|ethan.kim@email.com|213-555-6789|Basic|True|2019-01-01T00:00:00.0000000
+7|Isabella Lopez|isabella.lopez@email.com|415-555-7890|Premium|False|2023-06-14T17:00:00.0000000-07:00
+8|James Johnson|james.johnson@email.com|909-555-8901|Standard|True|2023-06-14T17:00:00.0000000-07:00
+9|Mia Garcia|mia.garcia@email.com|714-555-9012|Basic|True|2023-06-14T17:00:00.0000000-07:00
+10|Benjamin Lee|benjamin.lee@email.com|323-555-0123|Premium|True|2018-06-14T17:00:00.0000000-07:00

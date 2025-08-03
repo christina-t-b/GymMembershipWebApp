@@ -1,0 +1,59 @@
+@model GymMembershipWebApp.Models.Member
+
+@{
+    ViewData["Title"] = "Edit Member";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="profile-container mb-4">
+    <img src="~/images/avatar.jpg"
+         alt="Member Avatar"
+         class="avatar-img rounded-circle"
+         style="width:100px; height:100px; object-fit:cover;" />
+    <h4>@Model.Name</h4>
+</div>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="MemberId" />
+
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Phone"></label>
+        <input asp-for="Phone" class="form-control" />
+        <span asp-validation-for="Phone" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="MembershipType">Membership Type</label>
+        <select asp-for="MembershipType" class="form-control">
+            <option>Basic</option>
+            <option>Premium</option>
+            <option>VIP</option>
+        </select>
+        <span asp-validation-for="MembershipType" class="text-danger"></span>
+    </div>
+
+    <div class="form-check mb-3">
+        <input asp-for="IsActive" class="form-check-input" />
+        <label asp-for="IsActive" class="form-check-label">Active?</label>
+    </div>
+
+    <button type="submit" class="btn btn-success">Save Changes</button>
+    <a asp-action="Index" class="btn btn-secondary ml-2">Back to List</a>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

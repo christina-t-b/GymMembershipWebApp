@@ -1,0 +1,37 @@
+@model IEnumerable<GymMembershipWebApp.Models.Member>
+
+@{
+    ViewData["Title"] = "Members Index";
+}
+
+<div class="container">
+    <h1>Members List</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Join Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var member in Model)
+            {
+                <tr>
+                    <td>@member.Name</td> 
+                    <td>@member.Email</td>
+                    <td>@member.JoinDate.ToString("yyyy-MM-dd")</td> 
+                    <td>
+                        <a href="@Url.Action("Edit", "Member", new { id = member.MemberId })" class="btn btn-info btn-sm">Edit</a>
+                        <a href="@Url.Action("Delete", "Member", new { id = member.MemberId })" class="btn btn-danger btn-sm">Delete</a>
+                        <a href="@Url.Action("Details", "Member", new { id = member.MemberId })" class="btn btn-primary btn-sm">Details</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <a href="@Url.Action("Create", "Member")" class="btn btn-success">Add New Member</a>
+</div>

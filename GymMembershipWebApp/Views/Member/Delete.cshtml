@@ -1,0 +1,6 @@
+@model Member
+<form method="post">
+    <p>Are you sure you want to delete '@Model.Name'?</p>
+    <button type="submit" class="btn btn-danger">Yes, Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

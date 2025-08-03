@@ -1,0 +1,35 @@
+/*  profile(avatar) image container */
+.avatar-container {
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+/*  default profile image */
+.avatar-img {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+    border: 3px solid #ddd;
+    object-fit: cover; 
+}
+/*profile text and buttons */
+.profile-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*  Style 4 buttons */
+button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}

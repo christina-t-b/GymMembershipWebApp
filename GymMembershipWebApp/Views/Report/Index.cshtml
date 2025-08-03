@@ -1,0 +1,38 @@
+@model IEnumerable<GymMembershipWebApp.Models.Report>
+
+@{
+    ViewData["Title"] = "Reports";
+}
+
+<h2 class="mb-4">Reports</h2>
+
+@if (Model == null || !Model.Any())
+{
+    <div class="alert alert-warning">No reports available.</div>
+}
+else
+{
+    <table class="table table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>Title</th>
+                <th>Created On</th>
+                <th>Summary</th>
+                <th class="text-center">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var report in Model)
+        {
+            <tr>
+                <td>@report.Title</td>
+                <td>@report.CreatedDate.ToShortDateString()</td>
+                <td>@report.Summary</td>
+                <td class="text-center">
+                    <a asp-action="Details" asp-route-id="@report.Id" class="btn btn-sm btn-primary">View</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
