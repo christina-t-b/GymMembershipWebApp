@@ -2,7 +2,7 @@
 # README – GymMembershipWebApp
 
 ## Overview
-This is a simple website built to help add, view, and overall manage gym memberships more easily. This program uses  Visual Studio (C#) and stores data in text files.
+This is a simple website built to help add, view, and overall manage gym memberships more easily. This program uses Visual Studio (C#, HTML,CSS) and stores data in text files.
 What’s inside the folder:
 •	Controllers - These files control how the pages behave
 •	Models- These describe the structure of the gym members (like name, email, etc.)
