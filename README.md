@@ -4,12 +4,19 @@
 ## Overview
 This is a simple website built to help add, view, and overall manage gym memberships more easily. This program uses Visual Studio (C#, HTML,CSS) and stores data in text files.
 What’s inside the folder:
+
 •	Controllers - These files control how the pages behave
+
 •	Models- These describe the structure of the gym members (like name, email, etc.)
+
 •	Views - These are the actual web pages the user sees
+
 •	App_Data - Stores a file called members.txt which saves the gym member info
+
 •	Program.cs and Startup.cs - These help the app start and run
+
 •	README.txt -This instructions file
+
 •	.csproj file -This is needed to open and run the project
 
 ##  Requirements:
